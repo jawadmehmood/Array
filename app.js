@@ -108,3 +108,68 @@ console.log(fruits);
 var sortedFruits = fruits.sort();
 console.log('Sorted fruits list:');
 console.log(sortedFruits);
+
+// Question 15
+
+var cities = ['Karachi' , 'Lahore' , 'Islamabad' , 'Quetta' , 'Peshawar' , 'Hyderabad'];
+console.log('Cities list:');
+console.log(cities);
+var selectedCities = cities.slice(0 , 3);
+console.log('Selected cities list:');
+console.log(selectedCities);
+
+// Question 16
+
+var arr = ['This' , 'is' , 'my' , 'cat'];
+console.log('Array:');
+console.log(arr);
+var arrToString = arr.join(' ');
+console.log('String:');
+console.log(arrToString);
+
+// Question 17
+
+var fifo = [];
+fifo.push('Keyboard');
+fifo.push('Mouse');
+fifo.push('Printer');
+fifo.push('Monitor');
+console.log('Devices:');
+console.log(fifo);
+console.log('Out:');
+console.log(fifo.shift());
+console.log('Out:');
+console.log(fifo.shift());
+console.log('Out:');
+console.log(fifo.shift());
+console.log('Out:');
+console.log(fifo.shift());
+
+// Question 18
+
+var lifo = [];
+lifo.push('Keyboard');
+lifo.push('Mouse');
+lifo.push('Printer');
+lifo.push('Monitor');
+console.log('Devices:');
+console.log(lifo);
+console.log('Out:');
+console.log(lifo.pop());
+console.log('Out:');
+console.log(lifo.pop());
+console.log('Out:');
+console.log(lifo.pop());
+console.log('Out:');
+console.log(lifo.pop());
+
+// Question 20
+
+var multidimensionalArray = [[[]]];
+
+// Question 21
+
+var nestedArray = [[0 , 1 , 2 , 3] , [1 , 0 , 1 , 2] , [2 , 1 , 0 , 1]];
+console.log(nestedArray[0]);
+console.log(nestedArray[1]);
+console.log(nestedArray[2]);
